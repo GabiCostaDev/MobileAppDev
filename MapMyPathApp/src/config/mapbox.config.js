@@ -1,0 +1,2 @@
+const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoiZ2FiaWNvc3RhIiwiYSI6ImNtNGY2ZGE0bzE0ZTYyanB3dGhrbWVyMjUifQ.V63RLRcbsfwu9GTjHUxj3g';
+export default MAPBOX_ACCESS_TOKEN;

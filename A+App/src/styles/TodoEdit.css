@@ -1,0 +1,56 @@
+.todo-edit {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 20px;
+}
+
+.todo-edit-input-wrapper {
+    position: relative;
+    width: calc(100% + 40px); /* Expand width */
+    max-width: calc(600px + 40px);
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-left: -40px;
+}
+
+.todo-edit input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: transparent; 
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(5px + 2vmin);
+    color: black; 
+    z-index: 1; 
+}
+
+.todo-edit .submit-button {
+    position: absolute;
+    right: 0;
+    height: calc(53px + 2vmin); 
+    width: calc(53px + 2vmin);
+    background-color: #292C33; 
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 2; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-edit .submit-button img {
+    width: 75%; /* image won't cover the full button */
+    height: 75%;
+    transition: transform 0.5s ease;
+}
+
+.todo-edit .submit-button:hover {
+    background: #363F48;
+}
